@@ -46,7 +46,7 @@ periodics:
     testgrid-create-test-group: "false"
   spec:
     containers:
-    - image: gcr.io/k8s-prow/branchprotector:v20210720-5548472063
+    - image: gcr.io/k8s-prow/branchprotector:v20210720-cd01da37ec
       command:
       - /app/prow/cmd/branchprotector/app.binary
       args:
@@ -76,7 +76,7 @@ periodics:
     testgrid-create-test-group: "false"
   spec:
     containers:
-    - image: gcr.io/k8s-prow/generic-autobumper:v20210720-5548472063
+    - image: gcr.io/k8s-prow/generic-autobumper:v20210720-cd01da37ec
       command:
       - /app/prow/cmd/generic-autobumper/app.binary
       args:
@@ -107,7 +107,7 @@ periodics:
     testgrid-create-test-group: "false"
   spec:
     containers:
-    - image: gcr.io/k8s-prow/generic-autobumper:v20210720-5548472063
+    - image: gcr.io/k8s-prow/generic-autobumper:v20210720-cd01da37ec
       command:
       - /app/prow/cmd/generic-autobumper/app.binary
       args:
